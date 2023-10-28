@@ -6,7 +6,7 @@
 
 
 Add it in your root build.gradle at the end of repositories:
-Step 1
+
 	dependencyResolutionManagement {
 		repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
 		repositories {
