@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="FilterMenuLayout">
+        <attr name="cm_primaryColor" format="color|reference"/>
+        <attr name="cm_primaryDarkColor" format="color|reference"/>
+        <attr name="cm_expandedRadius" format="dimension"/>
+        <attr name="cm_collapsedRadius" format="dimension"/>
+        <attr name="cm_centerLeft" format="dimension"/>
+        <attr name="cm_centerRight" format="dimension"/>
+        <attr name="cm_centerTop" format="dimension"/>
+        <attr name="cm_centerHorizontal" format="boolean"/>
+        <attr name="cm_centerVertical" format="boolean"/>
+        <attr name="cm_centerBottom" format="dimension"/>
+        <attr name="cm_sweepAngle" format="integer"/>
+    </declare-styleable>
+
+
+
+
+      <declare-styleable name="Rotate3dAnimation">
+        <attr name="rollType" format="enum">
+            <enum name="x" value="0"/>
+            <enum name="y" value="1"/>
+            <enum name="z" value="2"/>
+        </attr>
+        <attr name="fromDeg" format="float" />
+        <attr name="toDeg" format="float" />
+        <attr name="pivotX" format="fraction"/>
+        <attr name="pivotY" format="fraction" />
+    </declare-styleable>
+    
+        <attr name="alertDialogDark" format="reference"/>
+    <attr name="alertDialogTextColor" format="color|reference"/>
+    <attr name="alertDialogContentTextColor" format="color|reference"/>
+</resources>
