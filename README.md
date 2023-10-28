@@ -1,8 +1,6 @@
 # Alerts
 
-[Add it in your root build.gradle] at the end of repositories:
-
-#Gradle 
+[![](https://jitpack.io/v/paulo102121/Alerts.svg)](https://jitpack.io/#paulo102121/Alerts)
 
 
 Add it in your root build.gradle at the end of repositories:
